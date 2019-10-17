@@ -5,11 +5,12 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node index.js"
+		"start": "npm install;node index.js"
 	},
-	"author": "",
+	"author": "Julio Lira <jul10l1r4@disroot.org",
 	"license": "GPLv3",
 	"dependencies": {
+		"cookie-parser": "^1.4.3",
 		"express": ">= 4.0.0"
 	}
 }
